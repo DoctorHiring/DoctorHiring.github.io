@@ -17,6 +17,8 @@ body{margin:0;background:#f6f3ea;color:#251f21;font-family:'Noto Kufi Arabic','N
 .bar .in{max-width:980px;margin:0 auto;padding:8px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px}
 .logo{direction:ltr;display:inline-flex;align-items:baseline;gap:.28em;color:#fff;font-weight:700;font-size:18px;text-decoration:none;letter-spacing:.2px;font-family:Georgia,'Times New Roman',serif}
 .logo .big{font-size:2.1em;line-height:.9;font-weight:800;color:#f0d98a;background:linear-gradient(180deg,#f7e7b0,#c9a24a);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;margin-inline-end:-.02em}
+.nv{display:flex;align-items:center;gap:14px}
+.nv a:not(.btn){color:#f0d98a;font-weight:700;font-size:14px;text-decoration:none}
 .bar .btn{min-height:38px;padding:0 16px;font-size:13px;box-shadow:none}
 .hero{margin-top:16px;background:radial-gradient(140% 120% at 85% -10%,rgba(201,162,74,.28) 0%,rgba(201,162,74,0) 45%),linear-gradient(155deg,#1b4a3c 0%,#16392f 55%,#0f2b23 100%);color:#fff;border-radius:22px;padding:30px 22px 28px;border-bottom:4px solid #c9a24a;box-shadow:0 12px 34px rgba(22,57,47,.25)}
 h1{font-size:30px;line-height:1.4;margin:0 0 12px;font-weight:800}
@@ -72,19 +74,24 @@ details p{margin:0 0 14px;font-size:14px;color:#585254}
 .cta{background:#f8f5ec;border:1px solid #e3d3a6;border-radius:20px;padding:24px}
 .cta ul{margin:0 0 16px;padding-inline-start:20px;font-size:15px}
 .cta .btn{display:flex;width:100%;margin-bottom:10px}
+.people{display:grid;grid-template-columns:1fr;gap:14px}
+.pc{background:#fff;border:1px solid #e3d3a6;border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:6px;align-items:flex-start;box-shadow:0 4px 16px rgba(201,162,74,.15)}
+.pn{font-size:19px;font-weight:800;color:#16392f}
+.ph{font-size:17px;font-weight:700;letter-spacing:.3px;text-align:right}
+.pb{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
 .lock{margin-top:28px;border:1px dashed #cdb97a;border-radius:14px;padding:14px;font-size:13px;color:#3c3639}
 .share{margin-top:14px;font-size:13px}
 footer{text-align:center;color:#6d665f;font-size:12px;margin-top:28px}
 footer .logo{color:#16392f;font-size:15px}
 footer .logo .big{background:none;-webkit-text-fill-color:#c9a24a;color:#c9a24a}
 .fab{position:fixed;inset-inline-start:16px;bottom:16px;z-index:30;display:flex;align-items:center;gap:8px;background:#25d366;color:#fff;font-weight:700;text-decoration:none;padding:0 18px;min-height:52px;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.25);font-size:15px}
-@media(min-width:768px){.hero{padding:48px 44px}h1{font-size:42px;max-width:18em}.hero p{max-width:36em;font-size:17px}.grid{grid-template-columns:repeat(2,1fr)}.offers{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr 1fr}.trs{grid-template-columns:repeat(4,1fr)}.cta .btn{display:inline-flex;width:auto;margin-inline-end:10px}}
+@media(min-width:768px){.hero{padding:48px 44px}h1{font-size:42px;max-width:18em}.hero p{max-width:36em;font-size:17px}.grid{grid-template-columns:repeat(2,1fr)}.offers{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr 1fr}.people{grid-template-columns:1fr 1fr}.trs{grid-template-columns:repeat(4,1fr)}.cta .btn{display:inline-flex;width:auto;margin-inline-end:10px}}
 </style>
 </head>
 <body>
 <div class="bar"><div class="in">
  <a class="logo" href="#top" aria-label="Doctor Hiring"><span class="big">D</span>octor <span class="big">H</span>iring</a>
- <a class="btn" href="https://wa.me/201115573634">واتساب</a>
+ <nav class="nv"><a href="#contact">تواصل معنا</a><a class="btn" href="https://wa.me/201115573634">واتساب</a></nav>
 </div></div>
 <div class="wrap" id="top">
 <header class="hero">
@@ -141,6 +148,12 @@ footer .logo .big{background:none;-webkit-text-fill-color:#c9a24a;color:#c9a24a}
  <button class="btn ghost" id="share" type="button" style="display:flex;width:100%">شارك الصفحة مع زميل</button>
 </section>
 
+
+<section id="contact">
+ <h2>تواصل معنا</h2>
+ <p class="sub">اضغط على الرقم للمراسلة على واتساب أو الاتصال مباشرة.</p>
+ <div class="people"><div class="pc"><span class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></span><div class="pn">محمد ربيع</div><div class="ph" dir="ltr">+20 106 909 3667</div><div class="pb"><a class="btn sm" href="https://wa.me/201069093667">واتساب</a><a class="btn sm ghost" href="tel:+201069093667">اتصال</a></div></div><div class="pc"><span class="ico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></span><div class="pn">حافظ محمود</div><div class="ph" dir="ltr">+20 111 557 3634</div><div class="pb"><a class="btn sm" href="https://wa.me/201115573634">واتساب</a><a class="btn sm ghost" href="tel:+201115573634">اتصال</a></div></div></div>
+</section>
 <div class="lock">لا تظهر السير الذاتية والتراخيص وبيانات المرشحين في هذا الموقع إطلاقًا؛ تُحفظ في مكان خاص بصلاحيات محدودة.</div>
 <footer><a class="logo" href="#top"><span class="big">D</span>octor <span class="big">H</span>iring</a><div>© Doctor Hiring</div></footer>
 </div>
