@@ -5,24 +5,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Doctor Hiring | توظيف طبي للسعودية والخليج</title>
 <meta name="description" content="توظيف طبي للمملكة العربية السعودية ودول الخليج: الطلبات الحالية، الترخيص والتصنيف، البرومتريك، داتا فلو، السفر والتأشيرات.">
+<meta property="og:title" content="Doctor Hiring | توظيف طبي للسعودية والخليج">
+<meta property="og:description" content="الطلبات الحالية وخطوات التقديم عبر واتساب.">
+<meta name="theme-color" content="#16392f">
 <style>
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{margin:0;background:#f6f3ea;color:#251f21;font-family:'Noto Kufi Arabic','Noto Sans Arabic','Segoe UI',Tahoma,sans-serif;line-height:1.7}
-.wrap{max-width:960px;margin:0 auto;padding:20px 16px 48px}
-.hero{background:radial-gradient(140% 120% at 85% -10%,rgba(201,162,74,.28) 0%,rgba(201,162,74,0) 45%),linear-gradient(155deg,#1b4a3c 0%,#16392f 55%,#0f2b23 100%);color:#fff;border-radius:22px;padding:30px 22px 28px;border-bottom:4px solid #c9a24a;box-shadow:0 12px 34px rgba(22,57,47,.25)}
-.brand{display:flex;align-items:center;gap:10px;direction:ltr;justify-content:flex-end;margin-bottom:22px}
-.brand b{font-size:17px;font-weight:700}
-.mark{width:36px;height:36px;border-radius:10px;background:#c9a24a;display:grid;place-items:center}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px 96px}
+.bar{position:sticky;top:0;z-index:20;background:rgba(22,57,47,.96);backdrop-filter:blur(6px);border-bottom:2px solid #c9a24a}
+.bar .in{max-width:980px;margin:0 auto;padding:8px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.logo{direction:ltr;display:inline-flex;align-items:baseline;gap:.28em;color:#fff;font-weight:700;font-size:18px;text-decoration:none;letter-spacing:.2px;font-family:Georgia,'Times New Roman',serif}
+.logo .big{font-size:2.1em;line-height:.9;font-weight:800;color:#f0d98a;background:linear-gradient(180deg,#f7e7b0,#c9a24a);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;margin-inline-end:-.02em}
+.bar .btn{min-height:38px;padding:0 16px;font-size:13px;box-shadow:none}
+.hero{margin-top:16px;background:radial-gradient(140% 120% at 85% -10%,rgba(201,162,74,.28) 0%,rgba(201,162,74,0) 45%),linear-gradient(155deg,#1b4a3c 0%,#16392f 55%,#0f2b23 100%);color:#fff;border-radius:22px;padding:30px 22px 28px;border-bottom:4px solid #c9a24a;box-shadow:0 12px 34px rgba(22,57,47,.25)}
 h1{font-size:30px;line-height:1.4;margin:0 0 12px;font-weight:800}
 .rule{width:84px;height:3px;border-radius:2px;background:linear-gradient(90deg,#c9a24a,#f0d98a);margin:0 0 18px}
 .hero p{margin:0 0 20px;color:#e6eee9;font-size:16px}
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px;padding:0;list-style:none}
 .tags li{font-size:13px;padding:5px 14px;border-radius:999px;background:rgba(255,255,255,.12)}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 24px;border-radius:12px;background:#c9a24a;color:#1d1a10;font-weight:700;font-size:15px;text-decoration:none;box-shadow:0 4px 12px rgba(201,162,74,.3)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 24px;border-radius:12px;background:#c9a24a;color:#1d1a10;font-weight:700;font-size:15px;text-decoration:none;border:0;cursor:pointer;font-family:inherit;box-shadow:0 4px 12px rgba(201,162,74,.3)}
+.btn.sm{min-height:42px;padding:0 18px;font-size:14px;margin-top:6px}
 .btn.line{background:transparent;color:#f3e6bd;border:1px solid rgba(243,230,189,.55);box-shadow:none}
 .btn.ghost{background:#fff;color:#16392f;border:1px solid #e3d3a6;box-shadow:none}
 .actions{display:flex;flex-wrap:wrap;gap:10px}
-section{margin:38px 0 0}
+section{margin:42px 0 0;scroll-margin-top:70px}
 h2{font-size:24px;margin:0 0 6px;font-weight:800;position:relative;padding-inline-start:16px}
 h2::before{content:'';position:absolute;inset-inline-start:0;top:8px;bottom:8px;width:4px;border-radius:2px;background:#c9a24a}
 .sub{color:#585254;font-size:14px;margin:0 0 16px}
@@ -32,81 +39,97 @@ h2::before{content:'';position:absolute;inset-inline-start:0;top:8px;bottom:8px;
 .card h3{margin:10px 0 6px;font-size:17px;color:#16392f}
 .card p{margin:0;font-size:14px;color:#585254}
 .note{margin-top:14px;font-size:13px;color:#585254;background:#efe9de;border-radius:12px;padding:12px 14px}
-.offer{border:1px solid #e3d3a6;border-radius:18px;background:#f8f5ec;padding:20px;margin-top:14px;box-shadow:0 4px 16px rgba(201,162,74,.15)}
+.sps{display:flex;flex-wrap:wrap;gap:10px}
+.sp{padding:10px 20px;border-radius:999px;background:#fff;border:1px solid #e3d3a6;color:#16392f;font-weight:700;font-size:14px;text-decoration:none}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.chip{font-family:inherit;font-size:14px;padding:8px 18px;border-radius:999px;border:1px solid #cdb97a;background:#fff;color:#16392f;cursor:pointer;min-height:40px}
+.chip.on{background:#16392f;color:#fff;border-color:#16392f}
+.offers{display:grid;grid-template-columns:1fr;gap:14px}
+.offer{border:1px solid #e3d3a6;border-radius:18px;background:#f8f5ec;padding:20px;box-shadow:0 4px 16px rgba(201,162,74,.15)}
+.offer[hidden]{display:none}
 .badge{display:inline-block;font-size:12px;font-weight:700;background:#16392f;color:#fff;padding:4px 12px;border-radius:999px;margin-bottom:10px}
-.offer h3{font-size:20px;margin:0 0 12px}
-.kv{display:grid;grid-template-columns:1fr;margin:0 0 12px}
-.kv div{padding:10px 0;border-bottom:1px solid #e9dfc2}
+.offer h3{font-size:19px;margin:0 0 10px}
+.kv{margin:0 0 10px}
+.kv div{padding:8px 0;border-bottom:1px solid #e9dfc2}
 .kv dt{font-size:12px;color:#585254}
 .kv dd{margin:0;font-size:14px;font-weight:700}
 .offer ul{margin:0 0 8px;padding-inline-start:20px;font-size:14px}
-.offer .m{font-size:14px;color:#585254;margin:8px 0 0}
+.m{font-size:14px;color:#585254;margin:8px 0 0}
+.two{display:grid;grid-template-columns:1fr;gap:14px}
+.box{background:#fff;border:1px solid #e8e2d2;border-radius:18px;padding:20px}
+.box h3{margin:0 0 10px;font-size:17px;color:#16392f}
+.box ul{margin:0;padding-inline-start:20px;font-size:14px}
+.tr{background:#16392f;color:#fff;border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:2px}
+.tr b{color:#f0d98a}
+.tr span{font-size:13px;color:#dfe9e4}
+.trs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 ol.steps{list-style:none;padding:0;margin:0;counter-reset:s}
 ol.steps li{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid #e6e0d0;font-size:15px}
 ol.steps li::before{counter-increment:s;content:counter(s);flex:0 0 34px;height:34px;border-radius:50%;background:#16392f;color:#fff;display:grid;place-items:center;font-weight:700}
+details{background:#fff;border:1px solid #e8e2d2;border-radius:14px;margin:0 0 10px;padding:0 16px}
+summary{cursor:pointer;font-weight:700;padding:14px 0;color:#16392f;font-size:15px}
+details p{margin:0 0 14px;font-size:14px;color:#585254}
 .cta{background:#f8f5ec;border:1px solid #e3d3a6;border-radius:20px;padding:24px}
 .cta ul{margin:0 0 16px;padding-inline-start:20px;font-size:15px}
 .cta .btn{display:flex;width:100%;margin-bottom:10px}
 .lock{margin-top:28px;border:1px dashed #cdb97a;border-radius:14px;padding:14px;font-size:13px;color:#3c3639}
+.share{margin-top:14px;font-size:13px}
 footer{text-align:center;color:#6d665f;font-size:12px;margin-top:28px}
-@media(min-width:768px){.wrap{padding-top:32px}.hero{padding:48px 44px}h1{font-size:42px;max-width:18em}.hero p{max-width:36em;font-size:17px}.grid{grid-template-columns:repeat(2,1fr)}.kv{grid-template-columns:1fr 1fr;column-gap:28px}.cta .btn{display:inline-flex;width:auto;margin-inline-end:10px}}
+footer .logo{color:#16392f;font-size:15px}
+footer .logo .big{background:none;-webkit-text-fill-color:#c9a24a;color:#c9a24a}
+.fab{position:fixed;inset-inline-start:16px;bottom:16px;z-index:30;display:flex;align-items:center;gap:8px;background:#25d366;color:#fff;font-weight:700;text-decoration:none;padding:0 18px;min-height:52px;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.25);font-size:15px}
+@media(min-width:768px){.hero{padding:48px 44px}h1{font-size:42px;max-width:18em}.hero p{max-width:36em;font-size:17px}.grid{grid-template-columns:repeat(2,1fr)}.offers{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr 1fr}.trs{grid-template-columns:repeat(4,1fr)}.cta .btn{display:inline-flex;width:auto;margin-inline-end:10px}}
 </style>
 </head>
 <body>
-<div class="wrap">
+<div class="bar"><div class="in">
+ <a class="logo" href="#top" aria-label="Doctor Hiring"><span class="big">D</span>octor <span class="big">H</span>iring</a>
+ <a class="btn" href="https://wa.me/201115573634">واتساب</a>
+</div></div>
+<div class="wrap" id="top">
 <header class="hero">
- <div class="brand"><b>Doctor Hiring</b><span class="mark"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1d1a10" stroke-width="2.6" stroke-linecap="round"><path d="M12 4v16M4 12h16"/></svg></span></div>
  <h1>توظيف طبي للمملكة العربية السعودية ودول الخليج</h1>
  <div class="rule"></div>
  <p>نربط الأطباء والتمريض بالفرص المناسبة، ونساعد المنشآت الطبية في الوصول إلى مرشحين مناسبين لاحتياجها، مع إرشاد ومتابعة لإجراءات الترخيص والتصنيف والسفر.</p>
  <ul class="tags"><li>أطباء</li><li>تمريض</li><li>السعودية</li><li>الخليج</li></ul>
- <div class="actions"><a class="btn" href="https://wa.me/201115573634">تواصل واتساب مباشر</a><a class="btn line" href="https://whatsapp.com/channel/0029VauERKt3AzNKI8vpLT3U">تابع القناة</a></div>
+ <div class="actions"><a class="btn" href="#jobs">شاهد الطلبات الحالية</a><a class="btn line" href="https://wa.me/201115573634">تواصل واتساب مباشر</a><a class="btn line" href="https://whatsapp.com/channel/0029VauERKt3AzNKI8vpLT3U">تابع القناة</a></div>
 </header>
+
+<section>
+ <h2>ابدأ بتخصصك</h2>
+ <p class="sub">اضغط على تخصصك لترسل لنا رسالة جاهزة على واتساب.</p>
+ <div class="sps"><a class="sp" href="https://wa.me/201115573634?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%AA%D8%AE%D8%B5%D8%B5%D9%8A%3A%20%D8%A3%D8%B3%D9%86%D8%A7%D9%86%0A%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D9%85%D8%B9%D8%B1%D9%81%D8%A9%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AD%D8%A9.">أسنان</a><a class="sp" href="https://wa.me/201115573634?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%AA%D8%AE%D8%B5%D8%B5%D9%8A%3A%20%D8%AC%D9%84%D8%AF%D9%8A%D8%A9%0A%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D9%85%D8%B9%D8%B1%D9%81%D8%A9%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AD%D8%A9.">جلدية</a><a class="sp" href="https://wa.me/201115573634?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%AA%D8%AE%D8%B5%D8%B5%D9%8A%3A%20%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D9%85%D8%B1%D9%83%D8%B2%D8%A9%0A%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D9%85%D8%B9%D8%B1%D9%81%D8%A9%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AD%D8%A9.">عناية مركزة</a><a class="sp" href="https://wa.me/201115573634?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%AA%D8%AE%D8%B5%D8%B5%D9%8A%3A%20%D8%A3%D8%B4%D8%B9%D8%A9%0A%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D9%85%D8%B9%D8%B1%D9%81%D8%A9%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AD%D8%A9.">أشعة</a><a class="sp" href="https://wa.me/201115573634?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%AA%D8%AE%D8%B5%D8%B5%D9%8A%3A%20%D8%AA%D9%85%D8%B1%D9%8A%D8%B6%0A%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D9%85%D8%B9%D8%B1%D9%81%D8%A9%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AD%D8%A9.">تمريض</a></div>
+</section>
+
+<section id="jobs">
+ <h2>الطلبات الحالية</h2>
+ <p class="sub">آخر تحديث ٢٧ نوفمبر ٢٠٢٦. قبل أي ترشيح نتأكد معك من أن الطلب ما يزال متاحًا.</p>
+ <div class="chips" id="chips"><button type="button" class="chip on" data-f="all">الكل</button><button type="button" class="chip" data-f="dental">أسنان</button><button type="button" class="chip" data-f="derm">جلدية</button><button type="button" class="chip" data-f="icu">عناية مركزة</button></div>
+ <div class="offers" id="offers"><article class="offer" data-spec="derm"><span class="badge">طلب معلن · لوكم</span><h3>نائبة أول جلدية (لوكم ١٥ يومًا)</h3><dl class="kv"><div><dt>المطلوب</dt><dd>نائبة أول جلدية (لوكم)</dd></div><div><dt>المدة</dt><dd>١٥ يومًا</dd></div><div><dt>المكان</dt><dd>مجمع طبي في المملكة العربية السعودية</dd></div><div><dt>التقديم</dt><dd>السيرة الذاتية على الخاص، مع ذكر المدينة الحالية وأقرب موعد للجاهزية</dd></div></dl><ul><li>التواجد داخل المملكة حاليًا لنقل الكفالة ومباشرة العمل</li><li>ترخيص مهني ساري</li><li>خبرة جيدة في التخصص</li><li>مقابلات أونلاين مع إدارة المجمع</li></ul><a class="btn sm" href="https://wa.me/201115573634?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85%20%D8%B9%D9%84%D9%89%3A%20%D9%86%D8%A7%D8%A6%D8%A8%D8%A9%20%D8%A3%D9%88%D9%84%20%D8%AC%D9%84%D8%AF%D9%8A%D8%A9%20%28%D9%84%D9%88%D9%83%D9%85%20%D9%A1%D9%A5%20%D9%8A%D9%88%D9%85%D9%8B%D8%A7%29%0A%D8%A7%D9%84%D8%AA%D8%AE%D8%B5%D8%B5%20%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%AC%D8%A9%3A%0A%D8%AD%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5%3A%0A%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D9%8A%D8%A9%3A%0A%D8%A3%D9%82%D8%B1%D8%A8%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%84%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9%3A">قدّم عبر واتساب</a></article><article class="offer" data-spec="dental"><span class="badge">طلب معلن · السعودية</span><h3>أخصائي جراحة وجه وفكين</h3><dl class="kv"><div><dt>الشرط</dt><dd>خبرة في الزراعة</dd></div><div><dt>المكان</dt><dd>الطائف</dd></div><div><dt>نوع العقد</dt><dd>عقد تأشيرة</dd></div></dl><a class="btn sm" href="https://wa.me/201115573634?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85%20%D8%B9%D9%84%D9%89%3A%20%D8%A3%D8%AE%D8%B5%D8%A7%D8%A6%D9%8A%20%D8%AC%D8%B1%D8%A7%D8%AD%D8%A9%20%D9%88%D8%AC%D9%87%20%D9%88%D9%81%D9%83%D9%8A%D9%86%20-%20%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%81%0A%D8%A7%D9%84%D8%AA%D8%AE%D8%B5%D8%B5%20%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%AC%D8%A9%3A%0A%D8%AD%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5%3A%0A%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D9%8A%D8%A9%3A%0A%D8%A3%D9%82%D8%B1%D8%A8%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%84%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9%3A">قدّم عبر واتساب</a></article><article class="offer" data-spec="dental"><span class="badge">طلب معلن · السعودية</span><h3>طبيب تركيبات أسنان</h3><dl class="kv"><div><dt>الشرط</dt><dd>مصري من القاهرة أو الإسكندرية، مستوى عملي ممتاز</dd></div><div><dt>نوع العقد</dt><dd>عقد تأشيرة</dd></div></dl><a class="btn sm" href="https://wa.me/201115573634?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85%20%D8%B9%D9%84%D9%89%3A%20%D8%B7%D8%A8%D9%8A%D8%A8%20%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%D8%A7%D8%AA%20%D8%A3%D8%B3%D9%86%D8%A7%D9%86%0A%D8%A7%D9%84%D8%AA%D8%AE%D8%B5%D8%B5%20%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%AC%D8%A9%3A%0A%D8%AD%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5%3A%0A%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D9%8A%D8%A9%3A%0A%D8%A3%D9%82%D8%B1%D8%A8%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%84%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9%3A">قدّم عبر واتساب</a></article><article class="offer" data-spec="icu"><span class="badge">طلب معلن · السعودية</span><h3>نائب أول أو استشاري عناية مركزة</h3><dl class="kv"><div><dt>المكان</dt><dd>جدة</dd></div><div><dt>الشرط</dt><dd>نقل كفالة (التواجد داخل السعودية)</dd></div></dl><a class="btn sm" href="https://wa.me/201115573634?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85%20%D8%B9%D9%84%D9%89%3A%20%D9%86%D8%A7%D8%A6%D8%A8%20%D8%A3%D9%88%D9%84%20%D8%A3%D9%88%20%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D9%8A%20%D8%B9%D9%86%D8%A7%D9%8A%D8%A9%20%D9%85%D8%B1%D9%83%D8%B2%D8%A9%0A%D8%A7%D9%84%D8%AA%D8%AE%D8%B5%D8%B5%20%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%AC%D8%A9%3A%0A%D8%AD%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5%3A%0A%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D9%8A%D8%A9%3A%0A%D8%A3%D9%82%D8%B1%D8%A8%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%84%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9%3A">قدّم عبر واتساب</a></article><article class="offer" data-spec="derm"><span class="badge">طلب معلن · السعودية</span><h3>استشارية جلدية</h3><dl class="kv"><div><dt>الشرط</dt><dd>ترخيص فقط بدون عمل، مع نقل كفالة</dd></div></dl><a class="btn sm" href="https://wa.me/201115573634?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85%20%D8%B9%D9%84%D9%89%3A%20%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D9%8A%D8%A9%20%D8%AC%D9%84%D8%AF%D9%8A%D8%A9%0A%D8%A7%D9%84%D8%AA%D8%AE%D8%B5%D8%B5%20%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%AC%D8%A9%3A%0A%D8%AD%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5%3A%0A%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D9%8A%D8%A9%3A%0A%D8%A3%D9%82%D8%B1%D8%A8%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%84%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9%3A">قدّم عبر واتساب</a></article><article class="offer" data-spec="dental"><span class="badge">طلب معلن · الرياض</span><h3>أطباء أسنان سعوديون</h3><dl class="kv"><div><dt>المطلوب</dt><dd>أطباء أسنان سعوديون، ممارس عام</dd></div><div><dt>المكان</dt><dd>مجموعة طبية في الرياض</dd></div><div><dt>الجنسية</dt><dd>سعودي</dd></div><div><dt>المقابلات</dt><dd>أونلاين عبر زووم بعد مراجعة الملف</dd></div></dl><a class="btn sm" href="https://wa.me/201115573634?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85%20%D8%B9%D9%84%D9%89%3A%20%D8%A3%D8%B7%D8%A8%D8%A7%D8%A1%20%D8%A3%D8%B3%D9%86%D8%A7%D9%86%20%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D9%88%D9%86%20-%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%0A%D8%A7%D9%84%D8%AA%D8%AE%D8%B5%D8%B5%20%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%AC%D8%A9%3A%0A%D8%AD%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5%3A%0A%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D9%8A%D8%A9%3A%0A%D8%A3%D9%82%D8%B1%D8%A8%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%84%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9%3A">قدّم عبر واتساب</a></article></div>
+ <p class="m">مقابلات أونلاين عبر زووم مع إدارة الجهة، بعد مراجعة الملف وموافقتها.</p>
+ <div class="note"><b>بحث مفتوح: قطر.</b> نبحث عن أطباء مرخصين داخل قطر: أخصائي أشعة (ذكرًا أو أنثى، من الجنسيات العربية) وأخصائية جلدية. يُشترط ترخيص مزاولة قطري ساري والتواجد داخل قطر حاليًا. هذا بحث عن مرشحين وليس وظائف مؤكدة، وما تزال جهة التوظيف قيد التحقق.<br><a class="btn sm" href="https://wa.me/201115573634?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85%20%D8%B9%D9%84%D9%89%3A%20%D8%A8%D8%AD%D8%AB%20%D9%85%D9%81%D8%AA%D9%88%D8%AD%20-%20%D9%82%D8%B7%D8%B1%0A%D8%A7%D9%84%D8%AA%D8%AE%D8%B5%D8%B5%20%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%AC%D8%A9%3A%0A%D8%AD%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5%3A%0A%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D9%8A%D8%A9%3A%0A%D8%A3%D9%82%D8%B1%D8%A8%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%84%D9%84%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9%3A">أرغب بالتواصل بخصوص قطر</a></div>
+</section>
 
 <section>
  <h2>خدماتنا</h2>
  <p class="sub">خدمات متكاملة من أول رسالة وحتى مباشرة العمل.</p>
- <div class="grid">
-  <div class="card"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round"><path d="M12 3v18M3 12h18"/></svg></span><h3>التوظيف الطبي</h3><p>نعرض الطلبات المتاحة في السعودية والخليج، ونراجع مع كل مرشح تخصصه وترخيصه ومدينته قبل أي ترشيح.</p></div>
-  <div class="card"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20M4 19.5A2.5 2.5 0 006.5 22H20V2H6.5A2.5 2.5 0 004 4.5v15z"/></svg></span><h3>الترخيص والتصنيف المهني</h3><p>إرشاد ومتابعة لإجراءات التسجيل والتصنيف لدى الهيئة السعودية للتخصصات الصحية، وتوضيح المتطلبات والمستندات اللازمة.</p></div>
-  <div class="card"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></span><h3>اختبارات البرومتريك</h3><p>إرشاد حول اختبارات البرومتريك ومتطلباتها وخطوات حجزها، ومتابعة حالة النتائج مع المرشح.</p></div>
-  <div class="card"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8zM14 2v6h6M9 13l2 2 4-4"/></svg></span><h3>التحقق من المستندات (DataFlow)</h3><p>إرشاد ومتابعة لإجراءات التحقق من الشهادات والمستندات عبر داتا فلو، وتوضيح الأوراق المطلوبة لكل تخصص.</p></div>
-  <div class="card"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg></span><h3>إجراءات السفر والتأشيرات</h3><p>إرشاد حول إجراءات السفر والتأشيرات ونقل الكفالة، وتجهيز المرشح لمباشرة العمل في جهته الجديدة.</p></div>
-  <div class="card"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><h3>متابعة حتى مباشرة العمل</h3><p>نتابع حالة كل طلب حتى اكتماله، ونُبقي المرشح على علم بحالته بوضوح: مفتوح، أو مكتمل، أو يحتاج معلومة.</p></div>
- </div>
+ <div class="grid"><div class="card"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 12h18"/></svg></span><h3>التوظيف الطبي</h3><p>نعرض الطلبات المتاحة في السعودية والخليج، ونراجع مع كل مرشح تخصصه وترخيصه ومدينته قبل أي ترشيح.</p></div><div class="card"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20M4 19.5A2.5 2.5 0 006.5 22H20V2H6.5A2.5 2.5 0 004 4.5v15z"/></svg></span><h3>الترخيص والتصنيف المهني</h3><p>إرشاد ومتابعة لإجراءات التسجيل والتصنيف لدى الهيئة السعودية للتخصصات الصحية، وتوضيح المتطلبات والمستندات اللازمة.</p></div><div class="card"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></span><h3>اختبارات البرومتريك</h3><p>إرشاد حول اختبارات البرومتريك ومتطلباتها وخطوات حجزها، ومتابعة حالة النتائج مع المرشح.</p></div><div class="card"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8zM14 2v6h6M9 13l2 2 4-4"/></svg></span><h3>التحقق من المستندات (DataFlow)</h3><p>إرشاد ومتابعة لإجراءات التحقق من الشهادات والمستندات عبر داتا فلو، وتوضيح الأوراق المطلوبة لكل تخصص.</p></div><div class="card"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg></span><h3>إجراءات السفر والتأشيرات</h3><p>إرشاد حول إجراءات السفر والتأشيرات ونقل الكفالة، وتجهيز المرشح لمباشرة العمل في جهته الجديدة.</p></div><div class="card"><span class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#16392f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><h3>متابعة حتى مباشرة العمل</h3><p>نتابع حالة كل طلب حتى اكتماله، ونُبقي المرشح على علم بحالته بوضوح: مفتوح، أو مكتمل، أو يحتاج معلومة.</p></div></div>
  <div class="note">الخدمات الإرشادية لدينا لا تُغني عن قرارات الجهات الرسمية، ولا نَعِد بنتيجة أي إجراء؛ نرشد ونتابع بشفافية.</div>
 </section>
 
 <section>
- <h2>الطلبات الحالية</h2>
- <p class="sub">آخر تحديث ٢٧ نوفمبر ٢٠٢٦. قبل أي ترشيح نتأكد معك من أن الطلب ما يزال متاحًا.</p>
- <div class="offer">
-  <span class="badge">طلب معلن</span>
-  <h3>نائبة أول جلدية (لوكم ١٥ يومًا)</h3>
-  <dl class="kv"><div><dt>المطلوب</dt><dd>نائبة أول جلدية (لوكم)</dd></div><div><dt>المدة</dt><dd>١٥ يومًا</dd></div><div><dt>المكان</dt><dd>مجمع طبي في المملكة العربية السعودية</dd></div><div><dt>التقديم</dt><dd>السيرة الذاتية على الخاص، مع ذكر المدينة الحالية وأقرب موعد للجاهزية</dd></div></dl>
-  <ul><li>التواجد داخل المملكة حاليًا لنقل الكفالة ومباشرة العمل</li><li>ترخيص مهني ساري</li><li>خبرة جيدة في التخصص</li><li>مقابلات أونلاين مع إدارة المجمع</li></ul>
- </div>
- <div class="offer">
-  <span class="badge">طلبات معلنة — السعودية</span>
-  <h3>أربع فرص للتعاقد</h3>
-  <dl class="kv"><div><dt>أخصائي جراحة وجه وفكين</dt><dd>خبرة في الزراعة · الطائف · عقد تأشيرة</dd></div><div><dt>طبيب تركيبات أسنان</dt><dd>مصري من القاهرة أو الإسكندرية، مستوى عملي ممتاز · عقد تأشيرة</dd></div><div><dt>نائب أول أو استشاري عناية مركزة</dt><dd>جدة · نقل كفالة (التواجد داخل السعودية)</dd></div><div><dt>استشارية جلدية</dt><dd>ترخيص فقط بدون عمل، مع نقل كفالة</dd></div></dl>
-  <p class="m">مقابلات أونلاين عبر زووم مع إدارة الجهة، بعد مراجعة الملف وموافقتها.</p>
- </div>
- <div class="offer">
-  <span class="badge">طلب معلن</span>
-  <h3>أطباء أسنان سعوديين — الرياض</h3>
-  <dl class="kv"><div><dt>المطلوب</dt><dd>أطباء أسنان سعوديين — ممارس عام</dd></div><div><dt>المكان</dt><dd>مجموعة طبية في الرياض</dd></div><div><dt>الجنسية</dt><dd>سعودي</dd></div><div><dt>المقابلات</dt><dd>أونلاين عبر زووم بعد مراجعة الملف</dd></div></dl>
- </div>
- <div class="note"><b>بحث مفتوح — قطر.</b> نبحث عن أطباء مرخصين داخل قطر: أخصائي أشعة (ذكرًا أو أنثى، من الجنسيات العربية) وأخصائية جلدية. يُشترط ترخيص مزاولة قطري ساري والتواجد داخل قطر حاليًا. هذا بحث عن مرشحين وليس وظائف مؤكدة، وما تزال جهة التوظيف قيد التحقق.</div>
+ <h2>كيف نعمل معك</h2>
+ <ol class="steps"><li><span>ترسل إلينا تخصصك ودرجتك المهنية وحالة ترخيصك ومدينتك الحالية.</span></li><li><span>نوضح لك الطلبات المناسبة، أو نخبرك بصراحة إن لم يوجد ما يناسبك حاليًا.</span></li><li><span>بموافقتك نرشحك، ولا يتم أي ترشيح دون موافقتك.</span></li><li><span>نتابع معك المقابلة والإجراءات حتى مباشرة العمل.</span></li></ol>
+</section>
+
+<section class="two">
+ <div class="box"><h3>جهّز هذه المستندات</h3><ul><li>السيرة الذاتية محدّثة</li><li>الشهادات (بكالوريوس وتخصص)</li><li>ترخيص مزاولة المهنة الساري</li><li>شهادة الخبرة</li><li>المدينة الحالية وأقرب موعد للجاهزية</li></ul><p class="m">لا ترسلها في أول رسالة، نطلبها منك عند الحاجة.</p></div>
+ <div class="box"><h3>لماذا Doctor Hiring</h3><div class="trs"><div class="tr"><b>موافقتك أولًا</b><span>لا ترشيح دون إذنك.</span></div><div class="tr"><b>شفافية الحالة</b><span>كل طلب: مفتوح أو مكتمل أو يحتاج معلومة.</span></div><div class="tr"><b>خصوصية بياناتك</b><span>لا تُنشر على الموقع إطلاقًا.</span></div><div class="tr"><b>بلا وعود بنتائج</b><span>نرشد ونتابع، والقرار للجهات.</span></div></div></div>
 </section>
 
 <section>
- <h2>كيف نعمل معك</h2>
- <ol class="steps">
-  <li><span>ترسل إلينا تخصصك ودرجتك المهنية وحالة ترخيصك ومدينتك الحالية.</span></li>
-  <li><span>نوضح لك الطلبات المناسبة، أو نخبرك بصراحة إن لم يوجد ما يناسبك حاليًا.</span></li>
-  <li><span>بموافقتك نرشحك، ولا يتم أي ترشيح دون موافقتك.</span></li>
- </ol>
+ <h2>أسئلة شائعة</h2>
+ <details><summary>هل التسجيل أو التقديم عندكم برسوم؟</summary><p>لا نذكر رسومًا في هذه الصفحة. أي تكلفة تخص جهات رسمية (مثل رسوم الهيئة أو الاختبارات) تُحدَّد من تلك الجهات، ونوضحها لك قبل أن تبدأ.</p></details><details><summary>هل ترشحونني دون علمي؟</summary><p>لا. لا يتم أي ترشيح إلا بموافقتك الصريحة بعد أن نعرض عليك الطلب.</p></details><details><summary>ما الذي أرسله لكم للبدء؟</summary><p>رسالة واتساب قصيرة: التخصص والدرجة، حالة الترخيص، المدينة الحالية، وأقرب موعد للجاهزية. لا تُرسل مستندات حساسة في الرسالة الأولى.</p></details><details><summary>هل تضمنون الحصول على وظيفة؟</summary><p>لا. القرار النهائي للجهة المتعاقدة والجهات الرسمية. دورنا الإرشاد والمتابعة والشفافية في حالة كل طلب.</p></details><details><summary>كيف تُحفظ بياناتي؟</summary><p>لا تُنشر بيانات أي مرشح على هذه الصفحة إطلاقًا. تُحفظ في مكان خاص بصلاحيات محدودة وتُستخدم لغرض الترشيح بعد موافقتك.</p></details><details><summary>هل تقبلون جميع التخصصات والجنسيات؟</summary><p>نبدأ بما تطلبه الجهات المعلنة أعلاه، ونخبرك بصراحة إن لم يوجد ما يناسب ملفك حاليًا، ونُبقي بياناتنا للطلبات القادمة بموافقتك.</p></details>
 </section>
 
 <section class="cta">
@@ -115,10 +138,29 @@ footer{text-align:center;color:#6d665f;font-size:12px;margin-top:28px}
  <ul><li>التخصص والدرجة المهنية</li><li>حالة الترخيص</li><li>المدينة الحالية</li><li>أقرب موعد للجاهزية</li></ul>
  <a class="btn" href="https://wa.me/201115573634">تواصل واتساب مباشر</a>
  <a class="btn ghost" href="https://whatsapp.com/channel/0029VauERKt3AzNKI8vpLT3U">قناة Doctor Hiring على واتساب</a>
+ <button class="btn ghost" id="share" type="button" style="display:flex;width:100%">شارك الصفحة مع زميل</button>
 </section>
 
 <div class="lock">لا تظهر السير الذاتية والتراخيص وبيانات المرشحين في هذا الموقع إطلاقًا؛ تُحفظ في مكان خاص بصلاحيات محدودة.</div>
-<footer>© Doctor Hiring</footer>
+<footer><a class="logo" href="#top"><span class="big">D</span>octor <span class="big">H</span>iring</a><div>© Doctor Hiring</div></footer>
 </div>
+<a class="fab" href="https://wa.me/201115573634"><svg width="22" height="22" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.2 14.1c-.2.6-1.300 1.200-1.800 1.200-.5.1-1 .2-3.300-.7-2.800-1.100-4.600-3.900-4.700-4.100-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.200.1.400 0 .5l-.4.600-.4.400c-.1.200-.3.400-.1.700.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.100.5.100.6-.1l.9-1.100c.2-.3.400-.2.700-.1l1.900.9c.3.100.5.200.5.300.1.200.1.800-.1 1.400z"/></svg>واتساب</a>
+<script>
+(function(){
+var chips=document.querySelectorAll('.chip'),offers=document.querySelectorAll('.offer');
+chips.forEach(function(c){c.addEventListener('click',function(){
+chips.forEach(function(x){x.classList.remove('on')});c.classList.add('on');
+var f=c.getAttribute('data-f');
+offers.forEach(function(o){o.hidden=!(f==='all'||o.getAttribute('data-spec')===f)});
+})});
+var s=document.getElementById('share');
+s.addEventListener('click',function(){
+var d={title:'Doctor Hiring',url:location.href};
+if(navigator.share){navigator.share(d).catch(function(){})}
+else if(navigator.clipboard){navigator.clipboard.writeText(location.href);s.textContent='تم نسخ الرابط'}
+});
+})();
+</script>
+<script data-goatcounter="https://doctorhiring.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
